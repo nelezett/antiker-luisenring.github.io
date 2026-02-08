@@ -1,0 +1,133 @@
+
+body {
+	margin: 40px;
+	font-family: helvetica, arial, sans-serif;
+	line-height: 1.4 ;
+	background-color: lightyellow ;
+	color: #0A0A0A;
+}
+
+h1 {
+	margin: 20px 0 10px;
+	font-size: 60px;
+	color: #141414;
+	font-family: Didot;
+	font-weight: normal;
+	color: steelblue;
+	text-align: center;
+
+}
+
+
+.navigation {
+display: flex;
+justify-content: center;
+list-style: none;
+padding: 20px;
+margin: -40px -40px 30px;
+gap: 20px;
+background-color: goldenrod;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: lightyellow;
+	font-weight: bold;
+	font-size: 1rm;
+	padding: 8px 12px;
+}
+
+.navigation a:hover {
+	color: steelblue;
+}
+
+
+p {
+	
+	margin:0 0 12px;
+	max-width: 60ch;
+}
+
+
+.objekte {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.objektbeschreibung {
+	padding: 10px;
+	text-align: center;
+}
+
+.objektbeschreibung img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	display: block;
+}
+
+.objektbeschreibung h3 {
+	margin: 8px 0 4px;
+}
+
+.objektbeschreibung p {
+	margin: 0px;
+	font-size: 0.8rem;
+	color: grey;
+}
+
+
+.knopf {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 18px;
+	text-decoration: none;
+	padding: 4px 10px;
+	border: 1px solid steelblue;
+	color: steelblue;
+}
+
+
+.daten {
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.daten li {
+	margin: 2px 0;
+}
+
+.kontakt {
+	margin-top: 20px;
+}
+
+
+.index-top {
+	display: flex;
+	gap: 40px;
+	align-items:flex-start;
+	margin-bottom: 20px;
+}
+
+.index-left {
+	flex:1;
+}
+
+.index-right {
+	width: 280px;
+}
+
+.seitenbild {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.bildunterschrift {	
+  font-size: 0.85rem;
+  color: grey;
+  margin: 0;
+}
